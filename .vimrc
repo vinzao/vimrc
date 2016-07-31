@@ -33,7 +33,12 @@ nmap <Leader>fw :FixWhitespace<CR>
 nmap <Leader>ft :tag<Space>
 nmap <Leader>fh :set ft=html<CR>
 nmap <Leader>fp :set ft=php<CR>
-nmap <Leader>gc :!ctags -R --languages=php .<CR>
+nmap <Leader>gc :!ctags
+    \ --recurse=yes
+    \ --languages=php
+    \ --regex-php='/^[ \t]*trait[ \t]+([a-z0_9_]+)/\1/t,traits/i'
+    \ --exclude=.git
+    \ . <CR>
 nmap <Leader>hl :nohl<CR>
 nmap <Leader>n :bn<CR>
 nmap <Leader>p :bp<CR>
