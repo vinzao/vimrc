@@ -66,6 +66,14 @@ augroup set_twig
     autocmd BufNewFile,BufRead *.twig :set syntax=htmldjango
 augroup END
 
+"""""""""""""""""""""""""""""""""""""""""""""""
+"  Filetype & Syntax settings for html files  "
+"""""""""""""""""""""""""""""""""""""""""""""""
+augroup set_html
+    autocmd!
+    autocmd BufNewFile,BufRead *.html :set ft=htmldjango
+augroup END
+
 """"""""""""""""""""""""""
 "  Colorscheme settings  "
 """"""""""""""""""""""""""

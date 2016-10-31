@@ -34,6 +34,7 @@ Plugin 'bronson/vim-trailing-whitespace'
 Plugin 'StanAngeloff/php.vim'
 Plugin 'jwalton512/vim-blade'
 Plugin 'arnaud-lb/vim-php-namespace'
+Plugin 'hynek/vim-python-pep8-indent'
 """"""""""""""""""""""""
 "  Plugins stops here  "
 """"""""""""""""""""""""
