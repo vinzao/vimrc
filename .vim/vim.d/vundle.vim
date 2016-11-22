@@ -29,11 +29,7 @@ Plugin 'scrooloose/nerdtree'
 Plugin 'mru.vim'
 Plugin 'rking/ag.vim'
 Plugin 'Yggdroot/indentLine'
-Plugin 'evidens/vim-twig'
 Plugin 'bronson/vim-trailing-whitespace'
-Plugin 'StanAngeloff/php.vim'
-Plugin 'jwalton512/vim-blade'
-Plugin 'arnaud-lb/vim-php-namespace'
 Plugin 'hynek/vim-python-pep8-indent'
 """"""""""""""""""""""""
 "  Plugins stops here  "

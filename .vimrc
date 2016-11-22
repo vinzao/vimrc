@@ -58,15 +58,6 @@ augroup so_vimrc
 augroup END
 
 """""""""""""""""""""""""""""""""""""""""""""""
-"  Filetype & Syntax settings for twig files  "
-"""""""""""""""""""""""""""""""""""""""""""""""
-augroup set_twig
-    autocmd!
-    " autocmd BufNewFile,BufRead *.twig :set ft=twig
-    autocmd BufNewFile,BufRead *.twig :set syntax=htmldjango
-augroup END
-
-"""""""""""""""""""""""""""""""""""""""""""""""
 "  Filetype & Syntax settings for html files  "
 """""""""""""""""""""""""""""""""""""""""""""""
 augroup set_html
@@ -79,7 +70,7 @@ augroup END
 """"""""""""""""""""""""""
 set background=dark
 if has('gui_running')
-    colorscheme molokai
+    colorscheme gruvbox
 else
     colorscheme slate
 endif
