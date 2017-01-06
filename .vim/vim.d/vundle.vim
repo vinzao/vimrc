@@ -31,6 +31,10 @@ Plugin 'rking/ag.vim'
 Plugin 'Yggdroot/indentLine'
 Plugin 'bronson/vim-trailing-whitespace'
 Plugin 'hynek/vim-python-pep8-indent'
+Plugin 'othree/html5.vim'
+Plugin 'cakebaker/scss-syntax.vim'
+Plugin 'hail2u/vim-css3-syntax'
+Plugin 'pangloss/vim-javascript'
 """"""""""""""""""""""""
 "  Plugins stops here  "
 """"""""""""""""""""""""
